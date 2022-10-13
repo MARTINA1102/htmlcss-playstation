@@ -64,5 +64,7 @@ header{
 
 .it-takes{
     background-image: url(/img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
