@@ -1,0 +1,68 @@
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo-img{
+    width: 100px;
+}
+.logoplays{
+    width: 50px;
+}
+.logolens{
+    width: 30px;
+}
+
+.bottone{
+    border: 1px solid rgb(52, 51, 51);
+    border-radius: 25px;
+    padding: 1px 13px;
+    background-color: rgb(52, 51, 51);
+    color: white;
+}
+.pt-20{
+    padding-top: 280px;
+}
+.returnal{
+    margin-top: 100px;
+    background-image:url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.bordo{
+    border-radius: 2rem;
+    border-radius: 10px;
+
+}
+.card{
+    border-radius: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-1{
+    padding: .3rem;
+    border-color: blue;
+    border-radius: 10px;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.ps5{
+    overflow: hidden;
+}
+.card-2{
+    border-radius: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.it-takes{
+    background-image: url(/img/it-takes-two-hero-banner-desktop.jpg);
+}
+
