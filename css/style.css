@@ -5,6 +5,36 @@ header{
     width: 100%;
     z-index: 10;
 }
+.dropdown{
+    position: static;
+}
+.dropdown-menu[data-bs-popper]{
+    width: 100%;
+    margin-top: 0;
+}
+.dropdown-menu{
+    border:none;
+    border-radius: 0;
+}
+.dropdown-menu.show{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+.dropdown-item{
+    text-align: center;
+}
+.dropdown-item img{
+    display: block;
+    width: 100%;
+}
+.riquadro:hover{
+    box-shadow: 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.hovcel:hover{
+    --bs-dropdown-link-hover-color: #0c54b2;
+}
 
 .logo-img{
     width: 100px;
@@ -23,6 +53,21 @@ header{
     background-color: rgb(52, 51, 51);
     color: white;
 }
+.rosso{
+    background-color: rgb(240, 51, 51);
+}
+.azzurro{
+    background-color: rgb(49, 65, 239);
+}
+.trasparente{
+    background-color: rgba(255, 255, 255, 0.322);
+    border: 1px solid rgba(255, 255, 255, 0.322);
+    color: rgb(25, 70, 205);
+}
+.bianco{
+    background-color: white;
+    color: black;
+}
 .pt-20{
     padding-top: 280px;
 }
@@ -35,39 +80,84 @@ header{
     color: white;
 }
 .returnal-logo{
-    min-width: 30px;
+    height: 50px;
 }
 .bordo{
-    border-radius: 2rem;
-    border-radius: 10px;
+    border-radius: calc(1rem - 3px);
 
 }
 .card{
-    border-radius: 2rem;
     border-radius: 10px;
     overflow: hidden;
 }
-.card-1{
-    padding: .3rem;
-    border-color: blue;
+.card.active{
+    border: 3px solid blue;
+    border-radius: 1rem;
+    padding: 3px;
+}
+
+.border_r{
     border-radius: 10px;
+    overflow: hidden;
 }
 .overflow-hidden{
     overflow: hidden;
 }
-.ps5{
-    overflow: hidden;
-}
-.card-2{
-    border-radius: 2rem;
-    border-radius: 10px;
-    overflow: hidden;
-    
+
+.card.bordo_bottom{
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgb(25, 70, 205);
 }
 
 .it-takes{
-    background-image: url(/img/it-takes-two-hero-banner-desktop.jpg);
-    background-size: cover;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size:cover;
+    background-position: center;
     background-repeat: no-repeat;
+
+}
+.logo-it{
+    width: 150px;
+}
+.nuove-uscite{
+    background-color: rgb(38, 37, 37);
+
+}
+.card{
+    border-radius: 0;
+    border: none;
+}
+.colore{
+    background-color: rgb(38, 37, 37);
+
+}
+.card-img-top{
+    border-radius: 10px;
 }
 
+.plus{
+    background-color: rgb(199, 193, 185);
+}
+.img-play-logo{
+    max-width: 400px;
+}
+.bgsabbia{
+    background-color:rgb(199, 193, 185);
+}
+.psnow{
+    background-color: rgb(27, 27, 53);
+}
+.blue{
+    background-color: rgb(27, 27, 53);
+}
+footer{
+    background-color: rgb(25, 70, 205);
+}
+.lightblue{
+    background-color: rgb(25, 70, 205);
+    width: 150px;
+
+}
+.list_style_none{
+    list-style: none;
+}
