@@ -35,7 +35,9 @@ header{
 .hovcel:hover{
     --bs-dropdown-link-hover-color: #0c54b2;
 }
-
+.dropdown-toggle::after:active{
+    content: "\F235";
+}
 .logo-img{
     width: 100px;
 }
@@ -53,20 +55,77 @@ header{
     background-color: rgb(52, 51, 51);
     color: white;
 }
+.bottone-1{
+    border: 1px solid rgb(52, 51, 51);
+    border-radius: 25px;
+    padding: 2px 20px;
+    background-color: rgb(52, 51, 51);
+    color: white;
+
+}
+.bordato{
+    padding: .5px 6px;
+    border-radius: 25px;
+    text-align: center;
+    border: 2px solid transparent;
+}
+.ner.bordato:hover{
+    padding: .5px 6px;
+    border-radius: 25px;
+    text-align: center;
+    border: 2px solid rgb(38, 37, 37);
+}
+.ros.bordato:hover{
+    padding: 0.5px 6px;
+    border-radius: 25px;
+    text-align: center;
+    border: 2px solid rgb(240, 51, 51);
+}
 .rosso{
     background-color: rgb(240, 51, 51);
+    border: solid 3px transparent;
+    padding: .8px;
+
+}
+.rosso:hover{
+    border: solid 3px rgb(240, 51, 51);
+    padding: .8px;
+    background-clip:content-box; 
 }
 .azzurro{
     background-color: rgb(49, 65, 239);
+    border: solid 3px transparent;
+    padding: .8px;
+}
+.azzurro:hover{
+    border: solid 3px rgb(49, 65, 239);
+    padding: .8px;
+    background-clip:content-box; 
+
 }
 .trasparente{
     background-color: rgba(255, 255, 255, 0.322);
     border: 1px solid rgba(255, 255, 255, 0.322);
     color: rgb(25, 70, 205);
+    border: solid 3px transparent;
+    padding: .8px;
+}
+.trasparente:hover{
+    border: solid 3px rgba(255, 255, 255, 0.322);
+    padding: .8px;
+    background-clip:content-box; 
+
+
 }
 .bianco{
     background-color: white;
     color: black;
+}
+.bianco:hover{
+    border: solid 3px white;
+    padding: .8px;
+    background-clip:content-box; 
+
 }
 .pt-20{
     padding-top: 280px;
