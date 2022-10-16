@@ -115,8 +115,6 @@ header{
     border: solid 3px rgba(255, 255, 255, 0.322);
     padding: .8px;
     background-clip:content-box; 
-
-
 }
 .bianco{
     background-color: white;
@@ -126,7 +124,6 @@ header{
     border: solid 3px white;
     padding: .8px;
     background-clip:content-box; 
-
 }
 .pt-20{
     padding-top: 280px;
@@ -154,6 +151,14 @@ header{
     border: 3px solid blue;
     border-radius: 1rem;
     padding: 3px;
+}
+.spost{
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.spost:hover{
+    top: -10px;
 }
 
 .border_r{
